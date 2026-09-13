@@ -8,7 +8,7 @@ import java.sql.Statement;
 
 public class DatabaseConnection {
     public static Connection conn;
-    public static final String URL = "jdbc:sqlite:pesotracker/data/database.db";
+    public static final String URL = "jdbc:sqlite:pesotracker/database.db";
     
     public static void connect(){
         try{
